@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background: white url(fond.png) no-repeat;
+	background-position: left 10cm;
+}
+h2{
+	text-align: center;
+	font-size: 45px;
+	vertical-align: middle;
+}
+
+.logo {
+	background-color: #3498db;
+	color: #fff;
+	padding: 5px;
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none;
+}
+.menu1 {
+	text-align: center;
+	padding: 5px;
+}
+
+.bas {
+	text-align: center;
+	padding: 5px;
+}
+
+.bleu:link, .bleu:visited {
+	background-color: #fff;
+	color: #222f3e;
+	padding: 5px 10px;
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.button{
+	text-align: center;
+	color: white;
+	background-color: #222f3e;
+	border-color: #222f3e;
+	padding: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 25px;
+	font-size: 15px;
+	text-decoration: none;
+	display: inline-block;
+}
+.bleu:hover, .bleu:active {
+	border-color: #48dbfb;
+	color: #fff;
+	background-color: #3498db;
+}
